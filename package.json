@@ -1,0 +1,16 @@
+{
+  "name": "10-to-kill-web",
+  "version": "1.0.0",
+  "description": "Version web fan-made du jeu de déduction 10' to Kill, pour jouer à distance entre amis.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
